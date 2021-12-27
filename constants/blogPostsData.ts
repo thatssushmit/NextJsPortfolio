@@ -21,7 +21,7 @@ const blogPosts: BlogPost[] = [
     title: 'Angular | A Beginners Guide',
   }),
   createPost({
-    category: ['NextJs'],
+    category: ['JavaScript'],
     date: dayjs().subtract(3, 'week'),
     id: 'how-to-be-creative-in-design',
     image: {
@@ -49,7 +49,7 @@ const blogPosts: BlogPost[] = [
     title: 'What’s New in Angular',
   }),
   createPost({
-    category: ['git'],
+    category: ['JavaScript'],
     date: dayjs().subtract(2, 'week'),
     id: 'tips-for-photographers-when-it-is-raining',
     image: {
