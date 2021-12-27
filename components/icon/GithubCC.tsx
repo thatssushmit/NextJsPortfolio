@@ -4,8 +4,6 @@ import * as React from 'react';
 // @mui
 import { SvgIcon, SvgIconProps } from '@mui/material';
 // type
-import { Property } from 'csstype';
-
 
 import { Property } from 'csstype';
 interface GithubProps extends SvgIconProps {

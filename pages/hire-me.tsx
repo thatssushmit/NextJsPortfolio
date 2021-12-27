@@ -98,7 +98,7 @@ const HireMe: NextPage = (props) => {
                   What can I do for you?</Typography>
               </Stack>
               <Divider variant="middle" />
-              <Stack
+              {/* <Stack
                 direction="row"
                 justifyContent="space-around"
                 alignItems="stretch"
@@ -139,12 +139,11 @@ const HireMe: NextPage = (props) => {
                     quasi quidem quibusdam.
       </Typography>
                 </Card>
-              </Stack>
-              <Typography component="p" variant="body1">
+              </Stack> */}
+              {/* <Typography component="p" variant="body1">
                 Anything related to web development
                 The grid creates visual consistency between layouts while allowing flexibility across a wide variety of designs. Material Design's responsive UI is based on a 12-column grid layout.
-              </Typography>
-
+              </Typography> */}
 
               <Stack direction="column" alignItems="left" spacing={2}>
                 <Button variant="contained" href="#" disabled>
@@ -152,10 +151,8 @@ const HireMe: NextPage = (props) => {
                 <Button variant="contained" href="#">sushmityadav007@gmail.com
                 <EmailIcon></EmailIcon>
                 </Button>
-
                 <Button variant="contained" href="#"> +91 9833162868 <PhoneIcon></PhoneIcon>
                 </Button>
-
                 <Button variant="contained" href="https://www.linkedin.com/in/thatsushmit/">
                   Connect me on  <LinkedInIcon></LinkedInIcon>
                 </Button>

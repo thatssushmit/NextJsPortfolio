@@ -91,4 +91,3 @@ theBag is a multipurpose template made by [Nextjs](https://nextjs.org/) and [MUI
 
 ---
 
-Made with ❤️ at [mopeim](https://mopeim.com)
