@@ -27,8 +27,8 @@ const ProjectsSection: React.FunctionComponent<ProjectsSectionProps> = (
   const options = [
     { label: 'Most Recent', active: true },
     { label: 'Most Popular' },
-    { label: 'Photography' },
-    { label: 'Design' },
+    { label: 'Web' },
+    { label: 'IOS' },
   ];
 
   const handleFilterOptionClick = (option: FilterOption) => {
@@ -44,15 +44,15 @@ const ProjectsSection: React.FunctionComponent<ProjectsSectionProps> = (
           sortArrayOfObj(newProjectsArray, 'likes', 'desc');
           setProjectsToRender(newProjectsArray);
           break;
-        case 'Photography':
+        case 'Web':
           const photographyProjects = newProjectsArray.filter((project) =>
-            project.category.includes('photography')
+            project.category.includes('Web')
           );
           setProjectsToRender(photographyProjects);
           break;
-        case 'Design':
+        case 'IOS':
           const designProjects = newProjectsArray.filter((project) =>
-            project.category.includes('design')
+            project.category.includes('IOS')
           );
           setProjectsToRender(designProjects);
           break;
@@ -74,7 +74,7 @@ const ProjectsSection: React.FunctionComponent<ProjectsSectionProps> = (
         color="text.secondary"
         sx={{ textAlign: 'center', marginTop: '1rem' }}
       >
-        <TypingEffect staticText="as a" text={['photographer', 'designer']} />
+        <TypingEffect staticText="as a" text={['programmer', 'web developer']} />
       </Box>
       <Filter onOptionClick={handleFilterOptionClick} options={options} />
       <ContainerGrid

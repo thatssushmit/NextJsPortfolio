@@ -39,7 +39,7 @@ const ProjectConstructor = (props: ProjectDetails): Project => {
 
 const projectsData: Project[] = [
   ProjectConstructor({
-    category: ['photography'],
+    category: ['Web'],
     date: dayjs().subtract(1, 'week'),
     id: 'bridephotoshoot',
     postFileName: 'bridephotoshoot',
@@ -97,7 +97,7 @@ const projectsData: Project[] = [
     ],
   }),
   ProjectConstructor({
-    category: ['design'],
+    category: ['Web'],
     date: dayjs().subtract(4, 'week'),
     id: 'hairmaskdesign',
     postFileName: 'bridephotoshoot',
@@ -120,7 +120,7 @@ const projectsData: Project[] = [
     ],
   }),
   ProjectConstructor({
-    category: ['photography'],
+    category: ['IOS'],
     date: dayjs().subtract(19, 'week'),
     id: 'clothingphotoshoot',
     postFileName: 'bridephotoshoot',
@@ -164,7 +164,7 @@ const projectsData: Project[] = [
     ],
   }),
   ProjectConstructor({
-    category: ['photography'],
+    category: ['IOS'],
     date: dayjs().subtract(24, 'week'),
     id: 'modelingphotoshoot',
     postFileName: 'bridephotoshoot',
@@ -201,7 +201,7 @@ const projectsData: Project[] = [
     ],
   }),
   ProjectConstructor({
-    category: ['design'],
+    category: ['IOS'],
     date: dayjs().subtract(8, 'month'),
     id: 'designingwaterbox',
     title: 'Box water is better',
