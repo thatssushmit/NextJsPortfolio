@@ -44,7 +44,7 @@ const HireMe: React.FunctionComponent<HireMeProps> = (props) => {
             sx={{ marginTop: '2rem' }}
             variant="contained"
           >
-            Hire me
+            Get In Touch
           </ButtonLink>
         </CustomGridItem>
         <CustomGridItem

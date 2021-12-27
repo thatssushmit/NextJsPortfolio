@@ -93,68 +93,19 @@ const HireMe: NextPage = (props) => {
                 },
               }}
             >
-              <Stack direction="column" alignItems="left" spacing={2}>
+              <Stack direction="column" alignItems="center" spacing={2}>
                 <Typography component="h2" variant="h4">
-                  What can I do for you?</Typography>
+                Get In Touch </Typography>
               </Stack>
               <Divider variant="middle" />
-              {/* <Stack
-                direction="row"
-                justifyContent="space-around"
-                alignItems="stretch"
-                spacing={0.5}
-              >
-                <Card variant="outlined">
-                <WatchLaterTwoToneIcon></WatchLaterTwoToneIcon>
-                  <Typography variant="h4" gutterBottom component="div">
-                    Save yourself time
-                  </Typography>
-                  <Typography variant="body2" gutterBottom>
-                    body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                    blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-                    neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-                    quasi quidem quibusdam.
-      </Typography>
-                </Card>
-
-                <Card variant="outlined">
-                  <Typography variant="h4" gutterBottom component="div">
-                    Avoid tech headaches
-                  </Typography>
-                  <Typography variant="body2" gutterBottom>
-                    body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                    blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-                    neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-                    quasi quidem quibusdam.
-      </Typography>
-                </Card>
-                <Card variant="outlined">
-                  <Typography variant="h4" gutterBottom component="div">
-                    Attract your dream clients
-                  </Typography>
-                  <Typography variant="body2" gutterBottom>
-                    body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                    blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-                    neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-                    quasi quidem quibusdam.
-      </Typography>
-                </Card>
-              </Stack> */}
-              {/* <Typography component="p" variant="body1">
-                Anything related to web development
-                The grid creates visual consistency between layouts while allowing flexibility across a wide variety of designs. Material Design's responsive UI is based on a 12-column grid layout.
-              </Typography> */}
-
               <Stack direction="column" alignItems="left" spacing={2}>
-                <Button variant="contained" href="#" disabled>
-                </Button>
-                <Button variant="contained" href="#">sushmityadav007@gmail.com
-                <EmailIcon></EmailIcon>
-                </Button>
                 <Button variant="contained" href="#"> +91 9833162868 <PhoneIcon></PhoneIcon>
                 </Button>
                 <Button variant="contained" href="https://www.linkedin.com/in/thatsushmit/">
                   Connect me on  <LinkedInIcon></LinkedInIcon>
+                </Button>
+                <Button variant="contained" href="#">sushmityadav007@gmail.com
+                <EmailIcon></EmailIcon>
                 </Button>
               </Stack>
 

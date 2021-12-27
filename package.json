@@ -3,8 +3,8 @@
   "homepage": "https://thatssushmit.github.io/NextJsPortfolio",
   "private": true,
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,6 +19,7 @@
     "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.2.0",
     "@mui/material": "^5.2.1",
+    "@sendgrid/mail": "^7.6.0",
     "csstype": "^3.0.10",
     "dayjs": "^1.10.7",
     "formik": "^2.2.9",

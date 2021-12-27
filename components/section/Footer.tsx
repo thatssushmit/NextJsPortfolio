@@ -11,6 +11,7 @@ import {
   Typography,
   styled,
 } from '@mui/material';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // custom component
 import TextLink from 'components/common/TextLink';
 import FacebookIconLink from 'components/common/FacebookIconLink';
@@ -57,7 +58,7 @@ const Footer: React.FunctionComponent<FooterProps> = (props) => {
 
   return (
     <>
-      <CustomCard>
+      {/* <CustomCard>
         <CustomCardContent>
           {navLinks!.map((navLink, index) => (
             <TextLink key={navLink.label + index} href={navLink.href}>
@@ -70,9 +71,9 @@ const Footer: React.FunctionComponent<FooterProps> = (props) => {
           <InstagramIconLink />
           <TwitterIconLink />
         </CardContent>
-      </CustomCard>
+      </CustomCard> */}
       <Typography component="p" variant="body1" textAlign="center">
-        Made with ❤️ at <TextLink href="https://mopeim.com">mopeim</TextLink>
+      <TextLink href="https://www.linkedin.com/in/thatsushmit/"> Designed & Built by sushmit Yadav</TextLink>
       </Typography>
     </>
   );
