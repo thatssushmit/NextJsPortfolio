@@ -28,7 +28,7 @@ const blogPosts: BlogPost[] = [
       alt: 'person holding light bulb',
       height: 2400,
       likes: 126,
-      src: '/posts/nextJs.png',
+      src: '/posts/NextJs.png',
       width: 1920,
     },
     filename: 'how-to-be-creative-in-design',
