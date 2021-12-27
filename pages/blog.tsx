@@ -32,7 +32,7 @@ const Blog: NextPage = (props) => {
         textAlign="center"
         variant="body1"
       >
-        Be up to date in photography and design
+      Technology like art is a soaring exercise of the human imagination
       </Typography>
       {blogPosts ? (
         <ContainerGrid sx={{ padding: { xs: '1rem', sm: '2rem' } }}>
