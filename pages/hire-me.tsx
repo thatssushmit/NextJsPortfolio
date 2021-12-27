@@ -108,8 +108,6 @@ const HireMe: NextPage = (props) => {
                 <EmailIcon></EmailIcon>
                 </Button>
               </Stack>
-
-
             </Box>
           </Grid>
           <Grid item xs={12} md={6} display="flex" justifyContent="center">

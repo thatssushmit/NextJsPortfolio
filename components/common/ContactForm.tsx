@@ -39,7 +39,8 @@ const ContactForm: React.FunctionComponent<ContactFormProps> = (props) => {
         }
         subheader={
           <Typography component="p" variant="subtitle1" color="text.disabled">
-            Freelance Available
+            I’m interested in freelance opportunities – especially ambitious or large projects. 
+            However, if you have other request or question, don’t hesitate to use the form.
           </Typography>
         }
       />
